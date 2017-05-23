@@ -3,6 +3,7 @@ import {ColBody} from './col-body.directive';
 
 @Component({
     selector: 'layout-col',
+    template:`<div><ng-contnet></ng-content></div>`,
     styles:[
         `
         :host{
