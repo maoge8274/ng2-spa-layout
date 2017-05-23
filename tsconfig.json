@@ -3,9 +3,12 @@
         "target": "es5",
         "module": "commonjs",
         "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "declaration": true,
-        "outDir": "lib/"
+        "sourceMap": true,
+        "outDir": "lib/",
+        "lib": ["dom", "es5", "es2015.core", "es2015.collection", "es2015.promise", "es2015.iterable"]
     },
     "include": [
         "src/**/*"

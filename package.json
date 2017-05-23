@@ -1,10 +1,12 @@
 {
   "name": "ng2-spa-layout",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "ng2 SPA layout",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,10 @@
   },
   "homepage": "https://github.com/maoge8274/ng2-spa-layout#readme",
   "devDependencies": {
-    "@angular/core": "^4.1.3"
+    "@angular/common": "^4.1.3",
+    "@angular/compiler": "^4.1.3",
+    "@angular/compiler-cli": "^4.1.3",
+    "@angular/core": "^4.1.3",
+    "typescript": "^2.3.3"
   }
 }
